@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            width: 220px;
+            font-family: sans-serif;
+            padding: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            cursor: pointer;
+            color: white;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        #btn-high {
+            background-color: #28a745;
+        }
+
+        /* Green */
+        #btn-random {
+            background-color: #ffc107;
+            color: #000;
+        }
+
+        /* Yellow */
+        #btn-low {
+            background-color: #dc3545;
+        }
+
+        /* Red */
+        p {
+            font-size: 11px;
+            color: #666;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Select Rating Strategy:</p>
+    <button id="btn-high">High (H or VH)</button>
+    <button id="btn-random">Random (VL to VH)</button>
+    <button id="btn-low">Low (VL or L)</button>
+    <script src="popup.js"></script>
+</body>
+
+</html>

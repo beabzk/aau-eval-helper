@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "AAU Evaluation Auto-Filler",
+  "version": "1.0",
+  "description": "Auto-fills the student staff evaluation form.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
